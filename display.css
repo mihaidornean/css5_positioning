@@ -1,0 +1,25 @@
+.notDisplayed {
+    display: none;
+}
+.parentContainer {
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    flex-flow: row-reverse wrap;
+    border: 4px solid grey;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 150px;
+    align-content: center;
+}
+.childContainer {
+    border: 2px solid orange;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.item3 {
+    order: 4;
+    flex-grow: 2;
+    flex-shrink: 3;
+}
+    
